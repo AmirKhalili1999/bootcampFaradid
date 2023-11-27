@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+.hiden {
+  display: flex !important;
+  width: 50%;
+  order: 1;
+}
+
+@media (max-width: 768px) {
+  .hiden {
+    display: none !important;
+    width: 100%;
+    order: 3;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 968px) {
+  .hiden {
+    display: none !important;
+    width: 100%;
+  }
+}
+
+
+.div {
+  width: 200px;
+  height: 200px;
+  box-shadow: inset 0px -1px 10px 9px red;
+  margin-left: 76px;
+  margin-top: 31px;
+  border-radius: 50%;
+}
